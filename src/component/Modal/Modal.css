@@ -1,0 +1,21 @@
+.Modal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+  width: 500px;
+  height: 510px;
+  border: 1px solid black;
+  border-radius: 4px;
+  position: fixed;
+  top: 40px;
+  background-color: cadetblue;
+}
+.img{
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

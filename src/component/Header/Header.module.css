@@ -1,0 +1,32 @@
+.Header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 98%;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: cadetblue;
+}
+.select {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px;
+  top: 25px;
+  position: fixed;
+  background-color: white;
+}
+.selectUp {
+  width: 100px;
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+}
